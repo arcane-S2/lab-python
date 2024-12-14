@@ -1,0 +1,30 @@
+[22;0t]0;IPython: alumno01/lab-python
+ 	 Computing pi in serial: 
+
+	 For 1000000 trials, pi = 3.141820
+
+714 ms ± 5.73 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+[22;0t]0;IPython: alumno01/lab-python
+ 	 Computing pi in serial: 
+
+	 For 1000000 trials, pi = 3.143420
+
+705 ms ± 4.96 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi: 
+
+	 For 1000000 trials, pi = 3.141876
+
+13.2 ms ± 7.18 µs per loop (mean ± std. dev. of 3 runs, 100 loops each)
+
+ 	 Computing pi: 
+
+	 For 1000000 trials, pi = 3.140544
+
+961 ms ± 2.15 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi: 
+
+	 For 1000000 trials, pi = 3.140544
+
+29.3 ms ± 17.7 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
