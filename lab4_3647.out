@@ -1,0 +1,38 @@
+[22;0t]0;IPython: alumno01/lab-pythonValor usado: 10000000
+Time taken by reduction operation: 0.5362820625305176 seconds
+532 ms ± 5.87 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time taken by for-loop on a list from a def: 0.4099271297454834 seconds
+444 ms ± 16.2 ms per loop (mean ± std. dev. of 4 runs, 1 loop each)
+CPU times: user 409 ms, sys: 0 ns, total: 409 ms
+Wall time: 410 ms
+Time taken by sum on a list: 0.06438493728637695 seconds
+Time taken by sum on a list from a def: 0.7031834125518799 seconds
+703 ms ± 238 µs per loop (mean ± std. dev. of 4 runs, 1 loop each)
+CPU times: user 712 ms, sys: 54.8 ms, total: 766 ms
+Wall time: 769 ms
+Time taken by for-loop on a numpy array from a def: 2.143679141998291 seconds
+Time taken by numpy.sum on a numpy array: 0.00683140754699707 seconds
+Time taken by numpy.sum on a numpy array without @njit: 2.7472527027130127 seconds
+Time taken by numpy.sum on a numpy array with @njit: 1.023510217666626 seconds
+[22;0t]0;IPython: alumno01/lab-pythonValor usado: 100000000
+Time taken by reduction operation: 5.28594708442688 seconds
+5.29 s ± 4.17 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 4999999950000000
+
+Time taken by for-loop on a list from a def: 4.12651801109314 seconds
+4.08 s ± 26.5 ms per loop (mean ± std. dev. of 4 runs, 1 loop each)
+CPU times: user 4.03 s, sys: 16 µs, total: 4.03 s
+Wall time: 4.04 s
+Time taken by sum on a list: 0.6664104461669922 seconds
+Time taken by sum on a list from a def: 7.297767639160156 seconds
+7.31 s ± 3.65 ms per loop (mean ± std. dev. of 4 runs, 1 loop each)
+CPU times: user 6.95 s, sys: 334 ms, total: 7.28 s
+Wall time: 7.3 s
+Time taken by for-loop on a numpy array from a def: 22.67451310157776 seconds
+Time taken by numpy.sum on a numpy array: 0.12476825714111328 seconds
+Time taken by numpy.sum on a numpy array without @njit: 28.412657737731934 seconds
+Time taken by numpy.sum on a numpy array with @njit: 1.5235860347747803 seconds
